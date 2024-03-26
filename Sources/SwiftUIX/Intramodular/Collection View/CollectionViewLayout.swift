@@ -6,7 +6,7 @@ import Combine
 import Swift
 import SwiftUI
 
-#if os(iOS) || os(macOS) || os(tvOS) || targetEnvironment(macCatalyst)
+#if os(iOS) || os(visionOS) || os(macOS) || os(tvOS) || targetEnvironment(macCatalyst)
 
 /// A set of properties for determining whether to recompute the size of items or their position in the layout.
 public protocol CollectionViewLayout {
